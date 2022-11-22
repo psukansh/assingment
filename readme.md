@@ -61,6 +61,20 @@ GET https://localhost:3000/tasks/1 will show the perticular which is required wh
 
 </p>
 
+We are creating another task,
+
+
+
+POST https://localhost:3000/tasks
+another task will be added.
+<p align="center">
+  <a href="#" target="_blank">
+    <img src="images/taskcreate.png" width="70%">
+  </a>
+
+</p>
+
+
 <p>&nbsp;</p>
 
 <p>&nbsp;</p>
