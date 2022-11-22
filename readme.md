@@ -7,6 +7,11 @@ Install JSON Server
 ```
 npm install -g json-server
 ```
+Creating db.json file
+
+```
+npm install -g json-server
+```
 
 
 <p>&nbsp;</p>
