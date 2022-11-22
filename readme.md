@@ -33,6 +33,11 @@ Creating the tasks
 
 ```
 
+Start JSON Server
+
+```
+json-server --watch db.json
+```
 
 <p>&nbsp;</p>
 
