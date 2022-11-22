@@ -41,6 +41,16 @@ json-server --watch db.json
 
 Now go to [http://localhost:3000/tasks](http://localhost:3000/tasks)
 
+
+
+All created tasks will show here in json format
+
+<p align="center">
+  <a href="#" target="_blank">
+    <img src="images/showTasks.png" height="70px">
+  </a>
+
+
 <p>&nbsp;</p>
 
 
