@@ -1,18 +1,13 @@
 
-Getting Started:
 
-install JSON server:
+## Getting started
 
-Created with <3 for front-end developers who need a quick back-end for prototyping and mocking.
+Install JSON Server 
 
-* [Egghead.io free video tutorial - Creating demo APIs with json-server](https://egghead.io/lessons/nodejs-creating-demo-apis-with-json-server)
-* [JSONPlaceholder - Live running version](https://jsonplaceholder.typicode.com)
-* [__My JSON Server__ - no installation required, use your own data](https://my-json-server.typicode.com)
+```
+npm install -g json-server
+```
 
-See also:
-* :dog: [husky - Git hooks made easy](https://github.com/typicode/husky)
-* :owl: [lowdb - local JSON database](https://github.com/typicode/lowdb)
-* ✅ [xv - a beautifully simple and capable test runner](https://github.com/typicode/xv)
 
 <p>&nbsp;</p>
 
