@@ -44,7 +44,7 @@ All created tasks will show here in json format
 
 <p align="center">
   <a href="#" target="_blank">
-    <img src="images/showTasks.png">
+    <img src="images/showTasks.png" width="70%">
   </a>
 
 </p>
@@ -52,11 +52,11 @@ All created tasks will show here in json format
 GET https://localhost:3000/tasks for showing all the tasks created
 
 
-GET https://localhost:3000/tasks/1 will show the perticular which is required whose id is 1 
+GET https://localhost:3000/tasks/1 will show the perticular which is required whose id is 2 
 
 <p align="center">
   <a href="#" target="_blank">
-    <img src="images/taskById.png">
+    <img src="images/taskById.png" width="70%">
   </a>
 
 </p>
