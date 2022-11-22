@@ -1,15 +1,14 @@
-
-
 ## Getting started
 
-Install JSON Server 
+Install JSON Server
 
 ```
 npm install -g json-server
 ```
+
 ## Creating db.json file
 
-Creating the tasks 
+Creating the tasks
 
 ```
 [
@@ -41,8 +40,6 @@ json-server --watch db.json
 
 Now go to [http://localhost:3000/tasks](http://localhost:3000/tasks)
 
-
-
 All created tasks will show here in json format
 
 <p align="center">
@@ -50,9 +47,21 @@ All created tasks will show here in json format
     <img src="images/showTasks.png">
   </a>
 
+</p>
+
+GET https://localhost:3000/tasks for showing all the tasks created
+
+
+GET https://localhost:3000/tasks/1 will show the perticular which is required whose id is 1 
+
+<p align="center">
+  <a href="#" target="_blank">
+    <img src="images/taskById.png">
+  </a>
+
+</p>
 
 <p>&nbsp;</p>
-
 
 <p>&nbsp;</p>
 
@@ -100,7 +109,7 @@ All created tasks will show here in json format
 
 ## Sponsor
 
-__Please help me build OSS__ 👉 [GitHub Sponsors](https://github.com/sponsors/typicode) :heart:
+**Please help me build OSS** 👉 [GitHub Sponsors](https://github.com/sponsors/typicode) :heart:
 
 ## Table of contents
 
@@ -108,47 +117,47 @@ __Please help me build OSS__ 👉 [GitHub Sponsors](https://github.com/sponsors/
 
 - [Getting started](#getting-started)
 - [Routes](#routes)
-  * [Plural routes](#plural-routes)
-  * [Singular routes](#singular-routes)
-  * [Filter](#filter)
-  * [Paginate](#paginate)
-  * [Sort](#sort)
-  * [Slice](#slice)
-  * [Operators](#operators)
-  * [Full-text search](#full-text-search)
-  * [Relationships](#relationships)
-  * [Database](#database)
-  * [Homepage](#homepage)
+  - [Plural routes](#plural-routes)
+  - [Singular routes](#singular-routes)
+  - [Filter](#filter)
+  - [Paginate](#paginate)
+  - [Sort](#sort)
+  - [Slice](#slice)
+  - [Operators](#operators)
+  - [Full-text search](#full-text-search)
+  - [Relationships](#relationships)
+  - [Database](#database)
+  - [Homepage](#homepage)
 - [Extras](#extras)
-  * [Static file server](#static-file-server)
-  * [Alternative port](#alternative-port)
-  * [Access from anywhere](#access-from-anywhere)
-  * [Remote schema](#remote-schema)
-  * [Generate random data](#generate-random-data)
-  * [HTTPS](#https)
-  * [Add custom routes](#add-custom-routes)
-  * [Add middlewares](#add-middlewares)
-  * [CLI usage](#cli-usage)
-  * [Module](#module)
-    + [Simple example](#simple-example)
-    + [Custom routes example](#custom-routes-example)
-    + [Access control example](#access-control-example)
-    + [Custom output example](#custom-output-example)
-    + [Rewriter example](#rewriter-example)
-    + [Mounting JSON Server on another endpoint example](#mounting-json-server-on-another-endpoint-example)
-    + [API](#api)
-  * [Deployment](#deployment)
+  - [Static file server](#static-file-server)
+  - [Alternative port](#alternative-port)
+  - [Access from anywhere](#access-from-anywhere)
+  - [Remote schema](#remote-schema)
+  - [Generate random data](#generate-random-data)
+  - [HTTPS](#https)
+  - [Add custom routes](#add-custom-routes)
+  - [Add middlewares](#add-middlewares)
+  - [CLI usage](#cli-usage)
+  - [Module](#module)
+    - [Simple example](#simple-example)
+    - [Custom routes example](#custom-routes-example)
+    - [Access control example](#access-control-example)
+    - [Custom output example](#custom-output-example)
+    - [Rewriter example](#rewriter-example)
+    - [Mounting JSON Server on another endpoint example](#mounting-json-server-on-another-endpoint-example)
+    - [API](#api)
+  - [Deployment](#deployment)
 - [Links](#links)
-  * [Video](#video)
-  * [Articles](#articles)
-  * [Third-party tools](#third-party-tools)
+  - [Video](#video)
+  - [Articles](#articles)
+  - [Third-party tools](#third-party-tools)
 - [License](#license)
 
 <!-- tocstop -->
 
 ## Getting started
 
-Install JSON Server 
+Install JSON Server
 
 ```
 npm install -g json-server
@@ -158,12 +167,8 @@ Create a `db.json` file with some data
 
 ```json
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
+  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
+  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
   "profile": { "name": "typicode" }
 }
 ```
@@ -185,7 +190,7 @@ Also when doing requests, it's good to know that:
 - If you make POST, PUT, PATCH or DELETE requests, changes will be automatically and safely saved to `db.json` using [lowdb](https://github.com/typicode/lowdb).
 - Your request body JSON should be object enclosed, just like the GET output. (for example `{"name": "Foobar"}`)
 - Id values are not mutable. Any `id` value in the body of your PUT or PATCH request will be ignored. Only a value set in a POST request will be respected, but only if not already taken.
-- A POST, PUT or PATCH request should include a `Content-Type: application/json` header to use the JSON in the request body. Otherwise it will return a 2XX status code, but without changes being made to the data. 
+- A POST, PUT or PATCH request should include a `Content-Type: application/json` header to use the JSON in the request body. Otherwise it will return a 2XX status code, but without changes being made to the data.
 
 ## Routes
 
@@ -200,3 +205,4 @@ POST   /posts
 PUT    /posts/1
 PATCH  /posts/1
 DELETE /posts/1
+```
