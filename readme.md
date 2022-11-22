@@ -1,5 +1,5 @@
 
-- [Getting started](#getting-started)
+Getting Started:
 
 install JSON server:
 
