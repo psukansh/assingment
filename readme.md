@@ -74,6 +74,17 @@ another task will be added.
 
 </p>
 
+Now if we want to change the information in the original tasks 
+
+PUT https://localhost:3000/tasks/4
+
+<p align="center">
+  <a href="#" target="_blank">
+    <img src="taskPUT.png" width="70%">
+  </a>
+
+</p>
+
 
 <p>&nbsp;</p>
 
