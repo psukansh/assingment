@@ -7,10 +7,30 @@ Install JSON Server
 ```
 npm install -g json-server
 ```
-Creating db.json file
+## Creating db.json file
+
+Creating the tasks 
 
 ```
-npm install -g json-server
+[
+    {
+        "id": 1,
+        "title": "Wake up early",
+        "task to": "sukansh"
+    },
+    {
+        "id": 2,
+        "title": "Go to gym",
+        "task to": "sukansh"
+    },
+    {
+        "id": 3,
+        "title": " Do coding and repeat",
+        "task to": "sukansh "
+    },
+
+]
+
 ```
 
 
