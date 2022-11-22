@@ -39,6 +39,8 @@ Start JSON Server
 json-server --watch db.json
 ```
 
+Now go to [http://localhost:3000/tasks](http://localhost:3000/tasks)
+
 <p>&nbsp;</p>
 
 
