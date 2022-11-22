@@ -85,6 +85,15 @@ PUT https://localhost:3000/tasks/4
 
 </p>
 
+changes will be made as shown
+
+<p align="center">
+  <a href="#" target="_blank">
+    <img src="images/afterPUT.png" width="70%">
+  </a>
+
+</p>
+
 
 <p>&nbsp;</p>
 
