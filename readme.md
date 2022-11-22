@@ -47,7 +47,7 @@ All created tasks will show here in json format
 
 <p align="center">
   <a href="#" target="_blank">
-    <img src="images/showTasks.png" height="70px">
+    <img src="images/showTasks.png">
   </a>
 
 
