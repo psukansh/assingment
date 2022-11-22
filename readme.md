@@ -69,7 +69,7 @@ POST https://localhost:3000/tasks
 another task will be added.
 <p align="center">
   <a href="#" target="_blank">
-    <img src="images/taskcreate.png" width="70%">
+    <img src="images/task-create.png" width="70%">
   </a>
 
 </p>
