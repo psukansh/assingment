@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Wake up early",
+      "task to": "sukansh"
+    },
+    {
+      "id": 2,
+      "title": "Go to gym",
+      "task to": "sukansh"
+    },
+    {
+      "id": 3,
+      "title": " Another task added",
+      "task to": "now task assign to pavan "
+    }
+  ]
+}
